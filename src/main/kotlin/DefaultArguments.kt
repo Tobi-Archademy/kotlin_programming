@@ -13,6 +13,7 @@ fun main() {
     println(findMax(-4, -9, true)) // -9
 
     numbers(1, 2, 3)
+
 }
 
 // Mixing default and regular parameters during declaration
