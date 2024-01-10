@@ -60,83 +60,108 @@ fun main() {
 
     // Working with MutableList
 
-    // Using joinToString() function
-    val southernCross = mutableListOf("Acrux", "Gacrux", "Imai", "Mimosa")
-    println(southernCross.joinToString())   //  Acrux, Gacrux, Imai, Mimosa
-    println(southernCross.joinToString(" -> "))   //  Acrux -> Gacrux -> Imai -> Mimosa
+//    // Using joinToString() function
+//    val southernCross = mutableListOf("Acrux", "Gacrux", "Imai", "Mimosa")
+//    println(southernCross.joinToString())   //  Acrux, Gacrux, Imai, Mimosa
+//    println(southernCross.joinToString(" -> "))   //  Acrux -> Gacrux -> Imai -> Mimosa
+//
+//
+//
+//    // Working with multiple lists
+//
+//    // You can concatenate several lists as shown in the following example:
+//    val southernCross2 = mutableListOf("Acrux", "Gacrux", "Imai", "Mimosa")
+//    val stars = mutableListOf("Ginan", "Mu Crucis")
+//
+//    val newList = southernCross2 + stars
+//    println(newList)
+//    println(newList.joinToString())    //  Acrux, Gacrux, Imai, Mimosa, Ginan, Mu Crucis
+//
+//    // You can use the operators == and != to compare lists – their contents and sizes:
+//    val firstList = mutableListOf("result", "is", "true")
+//    val secondList = mutableListOf("result", "is", "true")
+//    val thirdList = mutableListOf("result")
+//
+//    println(firstList == secondList)  //  true
+//    println(firstList == thirdList)   //  false
+//    println(secondList != thirdList)  //  true
+//
+//
+//    // Also, you can use += to add new elements to the list:
+//
+//    val vowels = mutableListOf('a', 'o', 'i', 'e', 'u')
+//    val intList1 = mutableListOf(1, 2, 3, 4, 5)
+//    val intList2 = mutableListOf(5, 4, 3, 2, 1)
+//
+//    vowels += 'y'
+//    intList1 += intList2
+//
+//    println(vowels)   // [a, o, i, e, u, y]
+//    println(intList1) // [1, 2, 3, 4, 5, 5, 4, 3, 2, 1]
+//
+//
+//    // Copying the list contents
+//
+//    // Kotlin uses toMutableList() function to copy the contents of a list to another
+//    val list = mutableListOf(1, 2, 3, 4, 5)
+//    val copyList = list.toMutableList()
+//
+//    print(copyList) // [1, 2, 3, 4, 5]
+//
+//
+//    // Other Useful functions in a MutableList
+//    val numbers = mutableListOf(1, 2, 3, 4, 5)
+//    var sublist = mutableListOf<Int>()
+//    if (numbers.isNotEmpty() && numbers.size >= 4) {
+//        sublist = numbers.subList(1, 4)
+//    }
+//
+//    print(sublist) // [2, 3, 4]
+//
+//    // list.indexOf(element)
+//    val numbers1 = mutableListOf(1, 2, 3, 4, 5)
+//
+//    if (5 in numbers1) {
+//        println(numbers1.indexOf(5)) // 4
+//    }
+//
+//    print(numbers1.indexOf(7)) // -1
+//
+//
+//    // list.sorted, list.minOrNull(), list.maxOrNull, list.sortedDescending()
+//    val numbers2 = mutableListOf(1, 2, 3, 4, 5)
+//
+//    val vowels1 = mutableListOf('e', 'a', 'y', 'i', 'u', 'o')
+//
+//    println(numbers2.minOrNull()) // 1
+//    println(numbers2.maxOrNull()) // 5
+//    println(numbers2.sum())      // 15
+//
+//    println(vowels1.sorted()) // [a, e, i, o, u, y]
+//    println(vowels1.sortedDescending()) // [y, u, o, i, e, a]
 
 
+    // Reading MutableList from Standard Input
+//    val size = readln().toInt()
+//    val mutList: MutableList<Int> = mutableListOf()
+//
+//    for (i in 0 until size) {
+//        mutList.add(readln().toInt())
+//    }
+//
+//    for (i in mutList.lastIndex downTo 0) {
+//        println("${mutList[i]}")
+//    }
 
-    // Working with multiple lists
+    val myList: MutableList<Int> = mutableListOf(1, 2, 3, 4, 5, 6)
+    val strList: MutableList<String> = mutableListOf()
 
-    // You can concatenate several lists as shown in the following example:
-    val southernCross2 = mutableListOf("Acrux", "Gacrux", "Imai", "Mimosa")
-    val stars = mutableListOf("Ginan", "Mu Crucis")
-
-    val newList = southernCross2 + stars
-    println(newList)
-    println(newList.joinToString())    //  Acrux, Gacrux, Imai, Mimosa, Ginan, Mu Crucis
-
-    // You can use the operators == and != to compare lists – their contents and sizes:
-    val firstList = mutableListOf("result", "is", "true")
-    val secondList = mutableListOf("result", "is", "true")
-    val thirdList = mutableListOf("result")
-
-    println(firstList == secondList)  //  true
-    println(firstList == thirdList)   //  false
-    println(secondList != thirdList)  //  true
-
-
-    // Also, you can use += to add new elements to the list:
-
-    val vowels = mutableListOf('a', 'o', 'i', 'e', 'u')
-    val intList1 = mutableListOf(1, 2, 3, 4, 5)
-    val intList2 = mutableListOf(5, 4, 3, 2, 1)
-
-    vowels += 'y'
-    intList1 += intList2
-
-    println(vowels)   // [a, o, i, e, u, y]
-    println(intList1) // [1, 2, 3, 4, 5, 5, 4, 3, 2, 1]
-
-
-    // Copying the list contents
-
-    // Kotlin uses toMutableList() function to copy the contents of a list to another
-    val list = mutableListOf(1, 2, 3, 4, 5)
-    val copyList = list.toMutableList()
-
-    print(copyList) // [1, 2, 3, 4, 5]
-
-
-    // Other Useful functions in a MutableList
-    val numbers = mutableListOf(1, 2, 3, 4, 5)
-    var sublist = mutableListOf<Int>()
-    if (numbers.isNotEmpty() && numbers.size >= 4) {
-        sublist = numbers.subList(1, 4)
+    for (i in myList.indices) {
+        strList.add(myList[i].toString())
     }
 
-    print(sublist) // [2, 3, 4]
+    println(strList.joinToString(", "))
 
-    // list.indexOf(element)
-    val numbers1 = mutableListOf(1, 2, 3, 4, 5)
-
-    if (5 in numbers1) {
-        println(numbers1.indexOf(5)) // 4
-    }
-
-    print(numbers1.indexOf(7)) // -1
-
-
-    // list.sorted, list.minOrNull(), list.maxOrNull, list.sortedDescending()
-    val numbers2 = mutableListOf(1, 2, 3, 4, 5)
-
-    val vowels1 = mutableListOf('e', 'a', 'y', 'i', 'u', 'o')
-
-    println(numbers2.minOrNull()) // 1
-    println(numbers2.maxOrNull()) // 5
-    println(numbers2.sum())      // 15
-
-    println(vowels1.sorted()) // [a, e, i, o, u, y]
-    println(vowels1.sortedDescending()) // [y, u, o, i, e, a]
+    val mappedObjects =  mapOf(1 to 2, 3 to 4, 4 to 5)
+    println(mappedObjects)
 }
