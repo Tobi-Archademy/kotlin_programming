@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95ed956f-b9f3-4c95-babe-b41fbc0184ac" name="Changes" comment="tutorials on classes and constructors in kotlin programming">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Constructors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Constructors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MemberFunctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Gradle.Build KotlinTutorials.executor": "Run",
     "Kotlin.DeclaringClassKt.executor": "Run",
+    "Kotlin.MemberFunctionsKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -59,7 +61,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.MemberFunctionsKt">
     <configuration name="DeclaringClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeclaringClassKt" />
       <module name="KotlinTutorials.main" />
@@ -67,8 +69,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MemberFunctionsKt" />
+      <module name="KotlinTutorials.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MemberFunctionsKt" />
         <item itemvalue="Kotlin.DeclaringClassKt" />
       </list>
     </recent_temporary>
@@ -92,7 +102,7 @@
       <workItem from="1704717865897" duration="131000" />
       <workItem from="1704787416001" duration="4562000" />
       <workItem from="1704888500221" duration="2439000" />
-      <workItem from="1704961661927" duration="5228000" />
+      <workItem from="1704961661927" duration="6869000" />
     </task>
     <task id="LOCAL-00001" summary="tutorials on the usage of when in kotlin programming">
       <option name="closed" value="true" />
@@ -174,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704981555023</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tutorials on classes and constructors in kotlin programming">
+      <option name="closed" value="true" />
+      <created>1705001774246</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705001774246</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
