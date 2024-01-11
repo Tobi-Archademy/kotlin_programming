@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95ed956f-b9f3-4c95-babe-b41fbc0184ac" name="Changes" comment="tutorials on working deeper with mutableList in kotlin programming">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DataClassLessons.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ExtensionFunctions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Nullability.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="95ed956f-b9f3-4c95-babe-b41fbc0184ac" name="Changes" comment="tutorials on list in kotlin programming">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Map.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Sets.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MutableList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/MutableList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +41,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,6 +77,8 @@
       <workItem from="1704621980653" duration="15352000" />
       <workItem from="1704717865897" duration="131000" />
       <workItem from="1704787416001" duration="4562000" />
+      <workItem from="1704888500221" duration="2439000" />
+      <workItem from="1704961661927" duration="804000" />
     </task>
     <task id="LOCAL-00001" summary="tutorials on the usage of when in kotlin programming">
       <option name="closed" value="true" />
@@ -129,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704691209135</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tutorials on list in kotlin programming">
+      <option name="closed" value="true" />
+      <created>1704888603015</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704888603015</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +168,7 @@
     <MESSAGE value="tutorials on mutableList in kotlin programming" />
     <MESSAGE value="tutorials on for-loop in kotlin programming" />
     <MESSAGE value="tutorials on working deeper with mutableList in kotlin programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="tutorials on working deeper with mutableList in kotlin programming" />
+    <MESSAGE value="tutorials on list in kotlin programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutorials on list in kotlin programming" />
   </component>
 </project>
