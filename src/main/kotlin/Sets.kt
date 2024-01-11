@@ -36,4 +36,47 @@ fun main() {
 // Hello Liza!
 // Hello Vanya!
 // Hello Nina!
+
+
+
+    // Working with MutableSet()
+    val words = mutableSetOf<String>("Apple", "Coke")
+    val friendsWords = mutableSetOf<String>("Banana", "Coke")
+
+    words.add("Phone")
+    words.add("Controller")
+
+    friendsWords.add("Phone")
+    friendsWords.add("Pasta")
+    friendsWords.add("Pizza")
+
+    words.addAll(friendsWords)
+
+    println(words) // [Apple, Coke, Phone, Controller, Banana, Pasta, Pizza]
+
+    // Removing elements from the MutableSet
+    val groceryList = mutableSetOf("Apple", "Water", "Banana", "Pen")
+
+    groceryList.remove("Apple")
+    println(groceries) // [Water, Banana, Pen]
+
+    val uselessGroceries = setOf("Banana", "Pen")
+    groceryList.removeAll(uselessGroceries)
+    println(groceryList) // [Water]
+
+    groceryList.clear()
+    println(groceryList) // []
+
+
+    // Iterating over MutableSet
+    val places = mutableSetOf("Saint-Petersburg", "Moscow", "Grodno", "Rome")
+
+    for (place in places) {
+        println(place)
+    }
+
+// Saint-Petersburg
+// Moscow
+// Grodno
+// Rome
 }
