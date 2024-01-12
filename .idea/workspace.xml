@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95ed956f-b9f3-4c95-babe-b41fbc0184ac" name="Changes" comment="tutorials on classes and constructors in kotlin programming">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MemberFunctions.kt" afterDir="false" />
+    <list default="true" id="95ed956f-b9f3-4c95-babe-b41fbc0184ac" name="Changes" comment="tutorials member functions in kotlin programming">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/FunctionReferences.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Constructors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Constructors.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,9 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Gradle.Build KotlinTutorials.executor": "Run",
+    "Kotlin.ConstructorsKt.executor": "Run",
     "Kotlin.DeclaringClassKt.executor": "Run",
+    "Kotlin.FunctionReferencesKt.executor": "Run",
     "Kotlin.MemberFunctionsKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,9 +64,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.MemberFunctionsKt">
+  <component name="RunManager" selected="Kotlin.FunctionReferencesKt">
+    <configuration name="ConstructorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConstructorsKt" />
+      <module name="KotlinTutorials.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeclaringClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeclaringClassKt" />
+      <module name="KotlinTutorials.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionReferencesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionReferencesKt" />
       <module name="KotlinTutorials.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,6 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FunctionReferencesKt" />
+        <item itemvalue="Kotlin.ConstructorsKt" />
         <item itemvalue="Kotlin.MemberFunctionsKt" />
         <item itemvalue="Kotlin.DeclaringClassKt" />
       </list>
@@ -102,7 +121,7 @@
       <workItem from="1704717865897" duration="131000" />
       <workItem from="1704787416001" duration="4562000" />
       <workItem from="1704888500221" duration="2439000" />
-      <workItem from="1704961661927" duration="6869000" />
+      <workItem from="1704961661927" duration="11497000" />
     </task>
     <task id="LOCAL-00001" summary="tutorials on the usage of when in kotlin programming">
       <option name="closed" value="true" />
@@ -192,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705001774246</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="tutorials member functions in kotlin programming">
+      <option name="closed" value="true" />
+      <created>1705002929580</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705002929580</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +246,7 @@
     <MESSAGE value="tutorials on list in kotlin programming" />
     <MESSAGE value="tutorials on set in kotlin programming" />
     <MESSAGE value="tutorials on classes and constructors in kotlin programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="tutorials on classes and constructors in kotlin programming" />
+    <MESSAGE value="tutorials member functions in kotlin programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutorials member functions in kotlin programming" />
   </component>
 </project>
