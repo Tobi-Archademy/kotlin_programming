@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95ed956f-b9f3-4c95-babe-b41fbc0184ac" name="Changes" comment="tutorials member functions in kotlin programming">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/FunctionReferences.kt" afterDir="false" />
+    <list default="true" id="95ed956f-b9f3-4c95-babe-b41fbc0184ac" name="Changes" comment="tutorials on function_references and annotations in kotlin programming">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Arrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Car.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Carparts.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/FixedArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InnerClasses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/VariablesScope.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/YAMLSyntaxes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Constructors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Constructors.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Nullability.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Nullability.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinTutorials" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,10 +72,16 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Gradle.Build KotlinTutorials.executor": "Run",
+    "Kotlin.ArraysKt.executor": "Run",
     "Kotlin.ConstructorsKt.executor": "Run",
     "Kotlin.DeclaringClassKt.executor": "Run",
+    "Kotlin.FixedArrayKt.executor": "Run",
     "Kotlin.FunctionReferencesKt.executor": "Run",
+    "Kotlin.InnerClassesKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
     "Kotlin.MemberFunctionsKt.executor": "Run",
+    "Kotlin.NullabilityKt.executor": "Run",
+    "Kotlin.VariablesScopeKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -64,30 +97,37 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.FunctionReferencesKt">
-    <configuration name="ConstructorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConstructorsKt" />
+  <component name="RunManager" selected="Kotlin.FixedArrayKt">
+    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysKt" />
       <module name="KotlinTutorials.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeclaringClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeclaringClassKt" />
+    <configuration name="FixedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FixedArrayKt" />
       <module name="KotlinTutorials.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionReferencesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionReferencesKt" />
+    <configuration name="InnerClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClassesKt" />
       <module name="KotlinTutorials.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MemberFunctionsKt" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="KotlinTutorials.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariablesScopeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VariablesScopeKt" />
       <module name="KotlinTutorials.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,10 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.FunctionReferencesKt" />
-        <item itemvalue="Kotlin.ConstructorsKt" />
-        <item itemvalue="Kotlin.MemberFunctionsKt" />
-        <item itemvalue="Kotlin.DeclaringClassKt" />
+        <item itemvalue="Kotlin.FixedArrayKt" />
+        <item itemvalue="Kotlin.InnerClassesKt" />
+        <item itemvalue="Kotlin.VariablesScopeKt" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.ArraysKt" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +162,11 @@
       <workItem from="1704717865897" duration="131000" />
       <workItem from="1704787416001" duration="4562000" />
       <workItem from="1704888500221" duration="2439000" />
-      <workItem from="1704961661927" duration="11497000" />
+      <workItem from="1704961661927" duration="11870000" />
+      <workItem from="1705312149155" duration="723000" />
+      <workItem from="1705398488411" duration="19000" />
+      <workItem from="1705398527050" duration="6918000" />
+      <workItem from="1705731941288" duration="2579000" />
     </task>
     <task id="LOCAL-00001" summary="tutorials on the usage of when in kotlin programming">
       <option name="closed" value="true" />
@@ -219,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705002929580</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tutorials on function_references and annotations in kotlin programming">
+      <option name="closed" value="true" />
+      <created>1705053353876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705053353876</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +300,7 @@
     <MESSAGE value="tutorials on set in kotlin programming" />
     <MESSAGE value="tutorials on classes and constructors in kotlin programming" />
     <MESSAGE value="tutorials member functions in kotlin programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="tutorials member functions in kotlin programming" />
+    <MESSAGE value="tutorials on function_references and annotations in kotlin programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutorials on function_references and annotations in kotlin programming" />
   </component>
 </project>
